@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#419E95"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:id="@+id/Login_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/User_Name"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/Login_Name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="50dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_baseline_perm_identity_24"
+        android:drawablePadding="25dp"
+        android:hint="User Name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:inputType="textEmailAddress"
+
+        />
+
+    <EditText
+        android:id="@+id/pascode"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/User_Name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="50dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:drawablePadding="25dp"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="350dp"
+        android:layout_height="53dp"
+        android:layout_below="@id/pascode"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="31dp"
+        android:text="Login"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/Register1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Login"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="42dp"
+        android:text="SignUp"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="538dp"
+        android:layout_marginRight="34dp"
+        android:layout_toLeftOf="@id/Register1"
+        android:text="If Your are New Create Account"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>
